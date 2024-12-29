@@ -147,8 +147,6 @@ public class Gui {
         };
         
         frame.setAlwaysOnTop(alwaysOnTop);
-        frame.setUndecorated(true);
-        frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
         frame.setSize(width, height);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
